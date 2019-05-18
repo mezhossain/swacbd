@@ -74,6 +74,7 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 1rem;
 }
 
 /* Centered text */
@@ -87,7 +88,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 7.5rem;
     opacity: 0.7;
 }
-.carousel-inner > .carousel-item > img { height: 90vh;  }
+.carousel-inner > .carousel-item > img { height: 70vh;  }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -109,6 +110,12 @@ body::-webkit-scrollbar-thumb {
   content: '<';
   font-size: 55px;
   color: black;
+}
+.card-text {
+    font-size: 0.8rem;
+}
+.card-img-top {
+    width: 100%; height: 15vw; object-fit: cover;
 }
 footer {
     background: black;
@@ -136,6 +143,13 @@ footer > .container-fluid > .row > .col-md-3 > ul > li > a:hover {
 }
 @media screen and (max-width: 600px) {
     .wrapper > .text-center > h1 {    
-        font-size: 5.5rem;
+        font-size: 5.4rem;
     }
+    
+    .container > .row > .col-sm > .card > img {
+        height: 50vw;
+        object-fit: cover;
+    }
+    .carousel-inner > .carousel-item > img { height: 50vh; }
+    
 }

@@ -13,8 +13,6 @@
     crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="js/ScrollBetweenElements.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
@@ -27,7 +25,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-expand-md navbar-light bg-light" id="nav">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" id="nav">
         <a href="#" class="navbar-brand" style="font-family: Pacifico, cursive;">Society for the Welfare of Autistic Children</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -124,7 +122,7 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card h-100">
-                        <img class="card-img-top" src="http://autism-swacbd.org/assets/img/main/img24.jpg" alt="Card image" style="width: 100%; height: 15vw; object-fit: cover;">
+                        <img class="card-img-top" src="http://autism-swacbd.org/assets/img/main/img24.jpg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">About SWAC</h4>
                             <p class="card-text">The Society for the Welfare of Autistic Children (SWAC) was formed on February 3, 2000 by a group of very enthusiastic and devoted parents of individuals with autism. The aim of SWAC is to educate and train individuals with autism for their development to realise their fullest potential and improve the quality of their lives. SWAC is a pioneer non-profit, non-government, non-political and voluntary organization.</p>
@@ -134,7 +132,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card h-100">
-                        <img class="card-img-top" src="http://autism-swacbd.org/assets/img/gallery/img-8.jpg" alt="Card image" style="width: 100%; height: 15vw; object-fit: cover;">
+                        <img class="card-img-top" src="http://autism-swacbd.org/assets/img/gallery/img-8.jpg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">What is Autism?</h4>
                             <p class="card-text">Autism is a lifelong neuro-developmental disability, which affects the way a person communicates and relates to people around him. Individuals with autism are unable to relate to others in a meaningful way. Their ability to develop friendship is impaired as is their capacity to understand other people’s feelings and thoughts. Individuals with autism can have accompanying learning disabilities but every one with the condition shares a difficulty in making sense of the world.</p>
@@ -144,7 +142,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card h-100">
-                        <img class="card-img-top" src="http://autism-swacbd.org/assets/img/school/img4.jpg" alt="Card image" style="width: 100%; height: 15vw; object-fit: cover;">
+                        <img class="card-img-top" src="http://autism-swacbd.org/assets/img/school/img4.jpg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">SWAC School for Autism</h4>
                             <p class="card-text">Society for the Welfare of Autistic Children(SWAC) is operating a special need school called SWAC School for Autism which provides intensive individualized instruction to children with autism, targeting the broad range of educational, sensory, prevocational, vocational, behavioral, social, communication, daily living, cognitive and motor dysfunctions that affect them, in a single integrated setting..</p>
@@ -156,7 +154,7 @@
         </div>
         <div class="container mb-5" id="div3">
             <h2 class="text-center mb-2">Latest photos from SWAC</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -164,14 +162,14 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block m-auto p-auto" src="img/swac3.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block m-auto p-auto" src="img/swac4.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block m-auto p-auto" src="img/swac5.jpg" alt="Third slide">
-              </div>
+                    <img class="d-block m-auto p-auto" src="img/swac3.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block m-auto p-auto" src="img/swac4.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block m-auto p-auto" src="img/swac5.jpg" alt="Third slide">
+                </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -195,12 +193,11 @@
                     Email: info@autism-swacbd.org.
                 </p>
             </div>
-            <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
             <div class="col-md-3 mb-md-0 mb-3">
                 <h5 class="text-uppercase">Map</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14605.138597427776!2d90.363002!3d23.772876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd22cf682cf3575!2sSociety+for+the+Welfare+of+Autistic+Children+(SWAC)!5e0!3m2!1sen!2sbd!4v1556793777365!5m2!1sen!2sbd" frameborder="0" style="border:0; height: 90%; width: 100%" allowfullscreen></iframe>
             </div>
-            <div class="col-md-3 mb-md-0 mb-3">
+            <div class="col-md-3 mb-md-0 mb-1 mt-3">
                 <h5 class="text-uppercase">Useful Links</h5>
 
                 <ul class="list-unstyled">
@@ -242,16 +239,5 @@
     </div>
 
   </footer>
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('body,html').animate({ scrollTop: 0 }, 500);
-        ScrollBetweenElements.init(700, "easeInOutCubic", true, 90);
-        ScrollBetweenElements.addElement($("#nav"));
-        ScrollBetweenElements.addElement($("#div1"));
-        ScrollBetweenElements.addElement($("#div2"));
-        ScrollBetweenElements.addElement($("#div3"));
-    });
-</script>
 
 </body></html>
